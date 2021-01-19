@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>roni khudanyan.</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa:700" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div id="loading">
+        <div id="spinner"></div>
+    </div>
+    <div id="particles-js"></div>
+    <div id="box">
+        <div class="box1 onlywide animated bounceOutLeft" style="animation-delay:1.7s;"></div>
+        <div class="box2 onlywide animated bounceOutLeft" style="animation-delay:1.8s;"></div>
+        <div class="box2 onlywide animated bounceOutLeft" style="animation-delay:1.9s;"></div>
+        <div class="box2 animated bounceOutRight" style="animation-delay:1.9s;"></div>
+        <div class="box2 onlywide animated bounceOutRight" style="animation-delay:1.8s;"></div>
+        <div class="box2 onlywide animated bounceOutRight" style="animation-delay:1.7s;"></div>
+    </div>
+    <a id="about" onclick="showabout()" class="animated fadeIn" style="animation-delay:2.2s;">about</a>
+    <a id="work" onclick="showwork()" class="animated fadeIn" style="animation-delay:2.2s;">work</a>
+    <a id="contact" onclick="showcontact()" class="animated fadeIn" style="animation-delay:2.2s;">contact</a>
+    <div id="middle" class="animated slideInDown" style="animation-delay:2.0s;">
+        <h1>roni khudanyan.</h1>
+        <h2>Software Developer / Designer / Engineer</h2>
+        <div id="menu">
+            <a onclick="showabout()">about</a>
+            <a onclick="showwork()">work</a>
+            <a onclick="showcontact()">contact</a>
+        </div>
+        <table>
+                <tr>
+                    <td class="animated zoomIn" style="animation-delay:2.2s;"><a href="https://github.com/ronikhudanyan"class="social"><i class="fab fa-github"></i></a></td>
+                    <td class="animated zoomIn" style="animation-delay:2.4s;"><a href="https://www.linkedin.com/in/ronikay818/" class="social"><i class="fab fa-linkedin"></i></a></td>
+                    <td class="animated zoomIn" style="animation-delay:2.6s;"><a href="https://app.codesignal.com/profile/ronikhudanyan" class="social"><i class="fas fa-rocket"></i></a></td>
+                    <td class="animated zoomIn" style="animation-delay:2.8s;"><a class="social"><i class="fab fa-twitter"></i></a></td>
+                </tr>
+        </table>
+    </div>
+    <div id="work_container" class="container">
+        <div onclick="closework()"><i class="fas fa-angle-right"></i></div>
+        <h1>works.</h1>
+        <section>
+            
+            <h2>hool armenia</h2>
+            <p>
+                An app I created for a cause, to help the Armenian diaspora get organized. The main purpose of this app is to organized the diaspora with call to actions, donations, news and anything that can help our motherland. Fully functional mern stack app.
+            </p>
+            <div id="used">
+                <div><i class="fas fa-circle"></i>&nbsp;HTML5</div>
+                <div><i class="fas fa-circle"></i>&nbsp;Node.JS</div>
+                <div><i class="fas fa-circle"></i>&nbsp;Javascript</div>
+            </div>
+            <a href="https://hands-off-our-lands.herokuapp.com/">
+            <button class="btn_one">Live App</button>
+            </a>
+        </section>
+        <section>
+            <h2>find(career).</h2>
+            <p>
+                As a student my collegues and I were very excited to join the work force after graduation. We decided to build out a full stack react/ node application that hosts a spereate mongo db. This app is a dashboard for anyone looking to join the code work force. Set goals, search job listings, keep track of applications and even create a network!
+            </p>
+            <div id="used">
+                <div><i class="fas fa-circle"></i>&nbsp;Node</div>
+                <div><i class="fas fa-circle"></i>&nbsp;React</div>
+                <div><i class="fas fa-circle"></i>&nbsp;Mongo</div>
+            </div>
+            <a href="findcareer.surge.sh">
+            <button class="btn_one">Live App</button>
+            </a>
+        </section>
+        <section>
+            <h2>Tron Legacy Run</h2>
+            <p>
+                Its always fun to see where you started off! Tron Legacy Run was the first project I ever built using Vanilla JS. This game is built with inspo from the original Flappy bird game. I love to look at it as a marker of where Ive started and where im at today. Going back to this game to rebuild it was challenging for me because since then ive learned about the wonderous world of full stack apps. 
+            </p>
+            <div id="used">
+                <div><i class="fas fa-circle"></i>&nbsp;Javascript</div>
+                <div><i class="fas fa-circle"></i>&nbsp;HTML</div>
+                <div><i class="fas fa-circle"></i>&nbsp;CSS</div>
+            </div>
+            <a href="https://ronikhudanyan.github.io/Tron-Legacy-Project-One-Roni-Bruno/">
+            <button class="btn_one">Live App</button>
+            </a>
+        </section>
+    </div>
+    <div id="about_container" class="container">
+            <div onclick="closeabout()"><i class="fas fa-angle-left"></i></div>
+            <h1>about.</h1>
+            <section>
+                <h2>about me</h2>
+                <p>
+                    A Software developer with the passion for tech instilled into his DNA. I come from a long line of devs which have taught me tech from the moment I could speak, this in turn gave me a passion that cannot be taught. My approach blends the passion I was brought up with and the 6 years of experience in the field. My success comes from my ability to step back, take a look at the bigger picture and apply skills and experience. I am able to pick apart an issue to apply logic and critical thinking, which then delivers a product that is beyond expectations. These traits combined directly contribute to the pride I hold with my work ethic. I can get the job done in ways that will exceed expectations and set presidents for the future.
+
+                </p>
+                <a href="ronres.pdf">
+                    <button class="btn_one">My Resume</button>
+                    </a>
+                
+            </section>
+            <section>
+                <h2>skills</h2>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JS</li>
+                    <li>React</li>
+                    <li>Express</li>
+                    <li>Node.js</li>
+                    <li>SQL</li>
+                    <li>Python</li>
+                    <li>Flask</li>
+                    <li>GIthub</li>
+                    <li>Ruby/Ruby on Rails</li>
+                    <li>Postman</li>
+                    <li>PGAdmin</li>
+ 
+                </ul>
+            </section>
+        </div>
+          <div id="contact_container" class="container">
+            <div onclick="closecontact()"><i class="fas fa-angle-down"></i></div>
+            <h1>contact.</h1>
+            <section>
+                <h2>contact me</h2>
+                <p>
+                    <form>
+                        <input type="text" placeholder="name" required>
+                        <input type="email" placeholder="email" required><br>
+                        <textarea placeholder="your message" required rows="5"></textarea><br>
+                        <button class="btn_one">send</button>
+                    </form> 
+                </p>
+            </section>
+        </div>
+        <div id="footer">
+            made on earth by a human <br> <a href="https://github.com/ronikhudanyan">RoniKode</a>
+        </div>
+    <script src="index.js" type="text/javascript"></script>
+    <script src="particles.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
